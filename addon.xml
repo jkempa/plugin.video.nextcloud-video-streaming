@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.pcloud-video-streaming" name="PCloud Video Streaming" version="1.2.11" provider-name="Guido Domenici">
+<addon id="plugin.video.nextcloud-video-streaming" name="NextCloud Video Streaming" version="0.1" provider-name="Julius Kempa">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
   </requires>
@@ -8,15 +8,15 @@
     <provides>video image</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Provides streaming from a pcloud.com bucket</summary>
-    <description lang="en">Provides streaming from a pcloud.com video source. You need an account with pCloud to use this (free accounts are OK). Not affiliated with pcloud.com.</description>
+    <summary lang="en">Provides streaming from a nextcloud.com bucket</summary>
+    <description lang="en">Provides streaming from a nextcloud.com video source. You need an NextCloud account to use this.</description>
     <disclaimer lang="en"></disclaimer>
     <language>en</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=239955</forum>
-    <website>https://github.com/gdomenici/plugin.video.pcloud-video-streaming/wiki</website>
-    <email>guido.domenici@gmail.com</email>
-    <source>https://github.com/gdomenici/plugin.video.pcloud-video-streaming</source>
+    <forum></forum>
+    <website>https://github.com/jkempa/plugin.video.nextcloud-video-streaming/wiki</website>
+    <email>julius.kempa@astelon.ch</email>
+    <source>https://github.com/jkempa/plugin.video.nextcloud-video-streaming</source>
   </extension>
 </addon>
